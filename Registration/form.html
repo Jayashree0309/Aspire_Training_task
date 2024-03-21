@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <h4>REGISTRATION FORM</h4>
+    </header>
+    <br>
+    <form>
+        <div>
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                <br>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                <br>
+            </div>
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+        </div>
+        <div>
+            <label for="Institute">Institution:</label>
+            <input type="text" id="Institute" name="Institute" value=" "><br>
+            <br>
+
+        </div>
+
+        <div>
+            <label for="Address">Address:</label><br>
+            <textarea id="Address" name="Address" rows="4" columns="50"></textarea>
+            <br><br>
+
+        </div>
+        <div>
+            <div>
+                <label for="mail">Mail Id:</label>
+                <input type="email" id="mail" name="mail" value=" "><br>
+                <br>
+            </div>
+            <div>
+                <label for="district">District:</label>
+                <select id="district" name="district" required>
+                    <option value="" disabled selected>Select your District</option>
+                    <option value="Cuddalore">Cuddalore</option>
+                    <option value="Villupuram">Villupuram</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Trichy">Trichy</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="contact">Contact No:</label>
+                <input type="tel" id="contact" name="contact"><br>
+                <br>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

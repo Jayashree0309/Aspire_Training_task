@@ -1,0 +1,17 @@
+header{
+    text-align: center;
+    font-size: larger;
+    color: whitesmoke;
+    border: 1rem inset ;
+    background-color: maroon;
+    font-style: italic;
+}
+body{
+    background-color: cornsilk;
+
+}
+.submit{
+    text-align: center;
+}
+
+
