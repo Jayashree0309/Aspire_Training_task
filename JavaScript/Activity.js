@@ -16,8 +16,8 @@ function capitalize(str) {
   return str.toUpperCase();
 }
 const capitalizedColours = colours.map(capitalize);
-console.log("Original Fruits: ", colours);
-console.log("Capitalized Fruits: ", capitalizedColours);
+console.log("Original Colours: ", colours);
+console.log("Capitalized Colurs: ", capitalizedColours);
 console.log("--------------sortfunction---------------");
 console.log(capitalizedColours.sort());
 console.log("--------------Reversefunction---------------");
