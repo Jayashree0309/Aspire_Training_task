@@ -1,0 +1,41 @@
+header{
+    text-align: center;
+    font-size: larger;
+    color: whitesmoke;
+    border: 1rem inset ;
+    background-color: maroon;
+    font-style: italic;
+}
+body{
+    background-color: cornsilk;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:auto;
+    height:auto;
+    padding:1rem;
+}
+.Gender{
+    padding: 1rem;
+}
+.Institute{
+    padding: 1rem;
+}
+.Address{
+    padding:1rem;
+}
+.flex-container{
+    display: flex;
+    width:auto;
+    height: auto;
+    gap:25rem;
+    padding:1rem;
+}
+.submit{
+    padding:2rem;
+    text-align: center;
+}
+.test{
+    color:red;
+}

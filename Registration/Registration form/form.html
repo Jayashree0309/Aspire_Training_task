@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <h4>REGISTRATION FORM</h4>
+    </header>
+    <form>
+    </form>
+    <div class="grid-container">
+        <div class="grid-item">
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="First name">
+            <div id="test"></div>
+
+        </div>
+        <div class="grid-item">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+            <div id="test1"></div>
+        </div>
+    </div>
+    <div class="Gender">
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+    </div>
+    <div class="Institute">
+        <label for="Institute">Institution:</label>
+        <input type="text" id="Institute" name="Institute" value=" "><br>
+        <div id="test2"></div>
+    </div>
+
+    <div class="Address">
+        <label for="Address">Address:</label><br>
+        <textarea id="Address" name="Address" rows="4" columns="50"></textarea>
+        <div id="test3"></div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item">
+            <label for="mail">Mail Id:</label>
+            <input type="email" id="mail" name="mail" value=" "><br>
+            <div id="test4"></div>
+        </div>
+        <div class="flex-item">
+            <label for="contact">Contact No:</label>
+            <input type="tel" id="contact" name="contact" pattern=[0-9]{10}><br>
+            <div id="test5"></div>
+        </div>
+    </div>
+    <div class="submit">
+        <button onclick="resetForm()">reset</button>
+        <button onclick="submitForm()">submit</button>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
