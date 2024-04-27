@@ -1,3 +1,11 @@
+/*Title: Javascript Activity
+  Author: S.Jayashree
+  Created Date: 27.03.2024
+  Last modified Date: 27.03.2024
+  Reviewed By:
+  Reviewed Date: 
+*/
+
 //Array 
 const Studentdetails=["StudentId","Name","Standard","age","gender"];
 console.log(names);
@@ -19,16 +27,16 @@ const students = [
 function findStudentByName(student) {
     return student.name === "Kamal";
 }
-const kamal = students.find(findStudentByName);
+const stdName = students.find(findStudentByName);
 
-console.log("First Student Named Kamal: ", kamal);
+console.log("First Student Named Kamal: ", stdName);
 console.log("\n");
 
 console.log("-----------findIndex function------------");
-function isKathir(student) {
+function isStudent(student) {
     return student.name === "Kathir";
 }
-const Index = students.findIndex(isKathir);
+const Index = students.findIndex(isStudent);
 console.log("Index of First Student Named Kathir: ", Index);
 console.log("\n");
 
